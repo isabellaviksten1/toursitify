@@ -1,27 +1,70 @@
-************  touRistify *******************
-Helping you find cool locations when traveling
+# Getting Started with Create React App
 
-# PROJECT DESCRIPTION
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Toutistify is a WebApp that allows the user to find and read about locations in any given area.
-The user can choose an area either by clicking on the map or by entering a searchphrase.
-The App is based to utilization of a the mapbox api (to display the map and fetch coordinates) and the geoapify api (to gather informatin e)
+## Available Scripts
 
+In the project directory, you can run:
 
+### `npm start`
 
-# 1. How to setup
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-npm install in terminal to get correct node modules.
-MAKE SURE you are in ./touristify/touristify when doing this.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-RUN:
-    $ npm install --save mapbox
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Add a .env file in the project folder.
-In that file, add following API KEYS:
+### `npm run build`
 
-REACT_APP_X_RAPIDAPI_KEY = 3ad440a4d5msh2fc9b14275b15aep13ba47jsna66bd2d61059
-REACT_APP_GEOAPIFY_KEY = 60908aa0439a46b58923841e469e02b1
-REACT_APP_MAPBOXGL_KEY = pk.eyJ1IjoidG91cmlzdGlmeSIsImEiOiJja3d0M2E0ajMxY2QyMm5sY2FpYnlzdWc4In0.2yb4xj6TGJC-z-dFPSaX6g
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
