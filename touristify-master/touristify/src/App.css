@@ -1,0 +1,442 @@
+/* navigation bar */
+
+#topnav {
+  background-color: rgb(20, 20, 20);
+  overflow: hidden;
+  width: auto;
+  height: 60px;
+  padding-top: 0px;
+  
+}
+
+#title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  transition: transform 0.8s;
+  cursor: pointer;
+}
+
+#title:hover {
+  transform: scale(1.05);
+}
+
+#titlediv {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* sidebar */
+
+#sidenav {
+  background-color: rgb(68, 73, 67);
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: visible;
+  margin-top: 60px;
+}
+
+#icon1 {
+  background-color: rgb(147, 157, 145);
+  height: 78px;
+  width: 78px;
+  position: fixed;
+  margin-left: 11px;
+  overflow-x: visible;
+  margin-top: 25px;
+  border-radius: 100%;
+  cursor: pointer;
+  border: none;
+
+  transition: transform 0.5s;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#icon1 img {
+  width: 40px;
+  height: 40px;
+}
+
+#icon1:hover {
+  transform: scale(1.06);
+}
+
+#icon2 {
+  background-color: rgb(167, 171, 115);
+  height: 78px;
+  width: 78px;
+  position: fixed;
+  margin-left: 11px;
+  overflow-x: visible;
+  margin-top: 130px;
+  border-radius: 100%;
+  cursor: pointer;
+  border: none;
+
+  transition: transform 0.5s;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#icon2 img {
+  width: 40px;
+  height: 40px;
+}
+
+#icon2:hover {
+  transform: scale(1.06);
+}
+
+#icon3 {
+  background-color: rgb(115, 168, 171);
+  height: 78px;
+  width: 78px;
+  position: fixed;
+  margin-left: 11px;
+  overflow-x: visible;
+  margin-top: 235px;
+  border-radius: 100%;
+  cursor: pointer;
+  border: none;
+
+  transition: transform 0.5s;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#icon3 img {
+  width: 40px;
+  height: 40px;
+}
+
+#icon3:hover {
+  transform: scale(1.06);
+}
+
+#icon4 {
+  background-color: rgb(180, 158, 129);
+  height: 78px;
+  width: 78px;
+  position: fixed;
+  margin-left: 11px;
+  overflow-x: visible;
+  margin-top: 340px;
+  border-radius: 100%;
+  cursor: pointer;
+  border: none;
+
+  transition: transform 0.5s;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#icon4 img {
+  margin-bottom:10px;
+  width: 38px;
+  height: 38px;
+}
+
+#icon4:hover {
+  transform: scale(1.06);
+}
+
+#icon5 {
+  background-color: rgb(131, 175, 196);
+  height: 78px;
+  width: 78px;
+  position: fixed;
+  margin-left: 11px;
+  overflow-x: visible;
+  margin-top: 445px;
+  border-radius: 100%;
+  cursor: pointer;
+  border: none;
+
+  transition: transform 0.5s;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#icon5 img {
+  margin-bottom:0px;
+  width: 38px;
+  height: 38px;
+}
+
+#icon5:hover {
+  transform: scale(1.06);
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -40px;
+  margin-bottom: -30px;
+  transition-duration: 1s;
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.tooltip #tooltiptext1 {
+  background-color: rgb(147, 157, 145);
+}
+
+.tooltip #tooltiptext2 {
+  background-color: rgb(167, 171, 115);
+}
+
+.tooltip #tooltiptext3 {
+  background-color: rgb(115, 168, 171);
+}
+
+.tooltip #tooltiptext4 {
+  background-color: rgb(180, 158, 129);
+}
+
+.tooltip #tooltiptext5 {
+  background-color: rgb(131, 175, 196);
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -25px;
+  border-width: 5px;
+  border-style: solid;
+  
+}
+
+.tooltip #tooltiptext1::after{
+  border-color:rgb(147, 157, 145) transparent transparent transparent;
+}
+
+.tooltip #tooltiptext2::after{
+  border-color:rgb(167, 171, 115) transparent transparent transparent;
+}
+
+.tooltip #tooltiptext3::after{
+  border-color:rgb(115, 168, 171) transparent transparent transparent;
+}
+
+.tooltip #tooltiptext4::after{
+  border-color:rgb(180, 158, 129) transparent transparent transparent;
+}
+
+.tooltip #tooltiptext5::after{
+  border-color:rgb(115, 168, 171) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* listbox */
+
+/* 1920x1080 state*/
+#listbox {
+  
+  background-color: rgb(20, 20, 20);
+  height: 680px;
+  width: 275px; 
+  position: fixed;
+  z-index: 10;
+  top: 90px;
+  left: 1100px;
+  overflow-x: visible;
+  margin-top: 125px;
+  border-radius: 12px;
+  align-items: top;
+  justify-content: center;
+  display: inline-block;
+}
+
+/* macbook state*/
+@media (max-width: 1700px) {
+  #listbox{
+    height: 560px; 
+    left: 700px;
+  }
+}
+
+#resultbox {
+  background-color: rgb(26, 26, 26);
+  height: 75px;
+  width: 250px;
+  z-index: 11;
+  cursor: pointer;
+
+  overflow-x: visible;
+  margin-top: 12.5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+
+  align-items: top;
+  justify-content: left;
+  display: flex;
+}
+
+#resultContent {
+  margin-top: 10px;
+}
+
+#resultTitle {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold; 
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+
+  margin-left: 15px;
+  padding-top: 25px;
+}
+
+#resultRating {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+
+  margin-left: 8px;
+}
+
+#resultType {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+
+  margin-left: 15px;
+}
+
+#resultDistance {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+#noResults {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold; 
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 200px;
+  margin-left: 6px;
+  
+}
+
+/* Body */
+
+body {
+  background-color: rgb(37, 37, 37);
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#map {
+  width: 54vw;
+  height: 65vh;
+  margin-left: 130px;
+  border-radius: 15px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold; 
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: -30px;
+  margin-left: 135px;
+}
+
+#txtinput {
+  border: none;
+  margin-left: 130px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  height: 40px;
+  width: 400px;
+  border-radius: 20px;
+
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  
+
+  outline-width: 0;
+}
+
+::placeholder {
+  color: rgb(97, 97, 97);
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold; 
+
+  text-align: center;
+}
+
+#searchbtn {
+  border: none;
+  background: none;
+
+  vertical-align: bottom;
+
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+#searchbtn:hover {
+  transform: scale(1.08);
+}
+
+#searchbtn img {
+  width: auto;
+  height: 35px;
+  margin-left: 5px;
+}
